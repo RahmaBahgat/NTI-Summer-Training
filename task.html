@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Form</title>
+    Please fill the boxes below:
+    <br><br><br>
+</head>
+<body>
+    <label>Full name</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" name="fullname" placeholder="Enter your full name" id="fullname" required/>
+    <br><br>
+    <label>Email</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="email" name="email" placeholder="ex: myname@example.com" id="email" required/>
+    <br><br>
+    <label>Recipient phone num</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="tel" name="phone" placeholder="Enter your phone number" id="phone" required/>
+    <br><br>
+    <label>Preference</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" name="preference" value="P1" required/> Exchange my current cylinder with a prefilled cylinder
+    <input type="checkbox" name="preference" value="P2" required/> Pick my cylinder, fill and return it to my location
+    <br><br>
+    <label>Cylinder Size</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="number" name="cylinder_size" id="cylinder_size" min="1" max="100" required />
+    <br><br>
+    <label>Quantity Required</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" name="quantity" placeholder="Enter quantity" id="quantity" required />
+    <br><br>
+    <label>Amount Due</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" name="amount_due" placeholder="Enter amount due" id="amount_due"  />
+    <br><br>
+    <label>Delivery Address(Please include nearest landmarks)</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <textarea name="address" placeholder="Enter your delivery address" id="address" rows="4" cols="50" ></textarea>
+    <br><br>
+    <button type="Place order">Place Order</button>
+    
+
+</body>
+</html>
