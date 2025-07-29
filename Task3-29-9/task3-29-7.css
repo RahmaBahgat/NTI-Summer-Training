@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-div {
+    display: flex;
+    min-height: 100;
+    /* background: radial-gradient(circle, rgba(212, 127, 162, 1) 0%, rgba(148, 187, 233, 1) 100%); */
+    align-items: center;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+
+div h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+}
+ div p {
+    font-size: 1.2em;
+    color: white;
+    line-height: 1.5;
+    margin: 20px 0;
+    text-align: center;
+}
+
+
+
+#form-container {
+    background-color: #f9f9f9;
+    padding: 40px;
+    flex: 1;
+    max-width: 50%;
+    height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 100%;
+}
+
+input, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#container {
+    background-color: #00BCD4;
+    color: white;
+    padding: 40px;
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    /* height: 100%; */
+}
+
+
+#container h1{
+    color: white;
+    
+}
+
+#contact-header {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
