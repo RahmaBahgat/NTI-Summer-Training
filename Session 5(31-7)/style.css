@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.dark-links {
+    color: #2B2B2B;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.pt-1 {
+    padding-top: 1%;
+}
+
+.ms-3 {
+    margin-left: 3%;
+}
+
+.d-inline-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#logo img {
+    width: 35px;
+    height: auto;
+}
+
+#social-icons {
+    margin-left: 80%;
+    padding: 10px 0;
+}
+
+#socail-icons li {
+    margin-left: 10px;
+}
+
+.gradient-bg {
+    width: 45%;
+}
+
+.gradient-bg img {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    margin-left: 30%;
+}
+
+.next-gradient {
+    width: 45%;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+.next-gradient h2{
+    font-size: 24px;
+}
+.next-gradient p{
+    font-size: 12px;
+}
+
+.custom-btn {
+    background-color: #2B2B2B;
+    color: white;
+    padding: 12px 16px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 4px;
+    
+}
+
+.subscribe-section {
+  padding: 80px 5%;
+  background-color: #fff;
+  font-size: 0;
+}
+
+.subscribe-left {
+  width: 45%;
+  padding-right: 5%;
+  font-size: 16px;
+}
+
+.subscribe-left h1 {
+  font-size: 48px;
+  color: #2B2B2B;
+  padding: auto;
+}
+
+.subscribe-right {
+  width: 50%;
+  font-size: 16px;
+}
+
+.subscribe-right p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.subscribe-form label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #111;
+}
+
+.subscribe-form input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #333;
+  padding: 10px 5px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  background-color: transparent;
+  outline: none;
+}
+
+.subscribe-form button {
+  background-color: #222;
+  color: #fff;
+  padding: 14px 35px;
+  border: none;
+  border-radius: 1000px;
+  font-weight: 600;
+  
+}
+.purple-section-txt{
+    width: 45%;
+}
+.purple-section-txt h2{
+  font-size: 48px;
+  color: #2B2B2B;
+  padding: 5% 3%;
+  margin-left: 10%;
+  background-color: purple;
+  height: 470px;
+}
+.purple-section-txt button{
+    background-color: #2B2B2B;
+    color: white;
+    padding: 12px 16px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.purple-section-img {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.purple-section-img img {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.white-section-txt{
+    width: 45%;
+}
+.white-section-txt h2{
+  font-size: 48px;
+  color: #2B2B2B;
+  padding: 5% 3%;
+  margin-left: 10%;
+  background-color: white;
+  height: 470px;
+}
+.white-section-txt button{
+    background-color: #2B2B2B;
+    color: white;
+    padding: 12px 16px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.white-section-img {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.white-section-img img {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.section-numbers {
+  background-color: #7e00cc;
+  color: white;
+  padding: 40px 20px;
+  text-align: left;
+}
+
+.number-box {
+  display: inline-block;
+  width: 40%;
+  margin: 0 2.5%;
+  vertical-align: top;
+}
+
+.number-box h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.number-box p {
+  font-size: 14px;
+}
+
+.btn{
+    padding-top: 5%;
+}
+
+.btn button{
+    background-color: #222;
+    color: #fff;
+    padding: 14px 35px;
+  border: none;
+  border-radius: 1000px;
+  font-weight: 600;
+}
+
+.section-speakers {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.speaker-card {
+  display: inline-block;
+  width: 200px;
+  margin: 0 20px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.speaker-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.speaker-info {
+  padding-top: 10px;
+}
+
+.speaker-info h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.speaker-info p {
+  font-size: 13px;
+  color: #555;
+  margin: 3px 0;
+}
