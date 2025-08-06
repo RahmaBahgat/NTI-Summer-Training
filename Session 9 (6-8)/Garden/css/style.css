@@ -1,0 +1,26 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+.hero {
+    background-image: url(../images/Image\ Placeholder.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    width: 100%;
+}
+
+
+h1{
+    font-size: 9rem;
+    letter-spacing: 0.3rem;
+}
+html, body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.that-green-clr{
+    color: #2DA884;;
+}
